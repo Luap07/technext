@@ -1,0 +1,49 @@
+.sponsor{
+    color: #fff;
+    margin-top: 1em;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.sponsor img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    margin-top: 1em;
+}
+
+.sponsor h3{
+    font-size: 18px;
+}
+
+.sponsor_icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    
+}
+
+.sponsor_icon h3{
+    text-align: center;
+    margin-left: 2.8em;
+    width: 5em;
+    margin-top: -2.3em;
+    font-size: .6em;
+    
+}
+
+.icon_jsk{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    justify-content: space-between;
+    margin-left: 7em;
+    width: 5em;
+    border: 1px solid #fff;
+    height: 2em;
+    align-items: center;
+    
+}
+

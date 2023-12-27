@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1c1c1c;
+}
+
+/* 
+h1, h2, h3, p, :hover{
+    color: #ce2429;
+} */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+}

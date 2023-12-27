@@ -1,0 +1,38 @@
+.conversation{
+    display: flex;
+}
+
+
+.conversation_img{
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+    margin-top: .5em;
+    border-radius: 1em;
+}
+.conversation_typo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.3em;
+    gap: 1.4em;
+    padding-right: 2em;
+}
+h2{
+    font-weight: 600;
+    font-size: 1.3em;
+}
+h2:hover{
+    color: #ce2429;
+    cursor: pointer;
+    transition:all 0.3s;
+}
+h3{
+    color: white;
+}
+
+.conversation_typo .divider{
+    background-color:#858585;
+    width: 100%;
+    height: 1px;
+}
+

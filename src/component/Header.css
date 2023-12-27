@@ -1,0 +1,19 @@
+
+.text-white{
+    color: #fff;
+}
+
+header{
+    display: flex;
+    padding: 1em;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header_icons{
+    display: flex;
+    gap: 1em;
+    
+}

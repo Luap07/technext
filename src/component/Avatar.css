@@ -1,0 +1,36 @@
+:root{
+    --text-gray:#858585
+}
+
+.avatar_container{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+}
+.avat_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.avat_right{
+    color: #fff;
+    margin-left: 1em;
+    
+}
+h3{
+    font-weight: 500;
+    font-size: 1.1em;
+}
+h3:hover{
+    transition-property: all;
+    cursor: pointer;
+    color: var(--text-gray);
+}
+.avat_right p{
+    color: var(--text-gray);
+    margin-top: .5em;
+    font-weight: 500;
+    font: 3;
+    
+}
+
