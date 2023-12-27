@@ -4,7 +4,7 @@ import avat from './avat.jpg';
 import featured from './featured.jpg';
 import banner from './banner.png';
 import image from './image.png';
-import screenshot from './screenshot.png';
+import screenshot from './Screenshot.png';
 import fist from './fist.png';
 import leo from './leo.png';
 import img from './img.jpg';
