@@ -12,6 +12,8 @@ import design from './design.png';
 import Highlights from './Highlights.jpg';
 import Icon from './Icon.png';
 import ok from './ok.png';
+import team from './team.jpg';
+import ref from './ref.jpeg';
 
 
 export default {
@@ -28,5 +30,7 @@ export default {
     design,
     Highlights,
     Icon,
-    ok
+    ok,
+    team,
+    ref
 }

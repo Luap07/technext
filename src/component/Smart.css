@@ -1,39 +1,44 @@
-.smart_head{
+.smart{
     display: flex;
     flex-direction: column;
-    margin-top: 1em;
-    
-}
-
-.smart_head img{
-    border: 1px solid none;
-    border-radius: 1em;
     width: 100%;
     max-width: 500px;
+    padding: 2px;
+    margin-left: 1.3em;
+}
+
+.smart_img{
+    border: 1px solid none;
+    border-radius: 1em;
+    margin-top: 1em;
     
 }
-.smart_head h2{
-    margin-top: 1.2em;
-    font-weight: 100;
-    font-size: 1.1em;
+
+.smart_details{
+    margin-top: 1em;
+    color: #fff;
     border: 1px solid #fff;
     width: 4em;
-    padding: 4px;
-    text-align: center;
-    border-radius: 5px;
+    padding: 5px;
+    border-radius: 3px;
+
 }
 
-.smart_head h3{
+
+.smart_head h2{
     font-size: 2em;
-    margin-top: .4em;
+    font-weight: 400;
 }
 
-.divider{
-    background-color:#858585;
-    width: 105%;
-    height: 1px;
+
+
+.smart_avat{
     margin-top: 1em;
-    width: 100%;
+    display: flex;
     
+}
+
+.smart_avat h3{
+    margin-left: .1em;
 }
 

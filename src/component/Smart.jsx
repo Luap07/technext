@@ -1,21 +1,34 @@
-import React from 'react';
 import './Smart.css';
-import assets from '../assets';
 
-const Smart = () => {
+
+const Smart = ({image, info, title, avatar, author, time, more}) => {
   return (
-    <div
-    className='smart_head'>
-        <img 
-        src={assets.design}></img>
-        <h2>NEWS</h2>
-        <h3>Nigeria's Jensesys AI secures $1.1million pre-seed funding to boost global B2B payments</h3>
+    <div className='smart'>
+        <img
+        className='smart_img'
+        src={image}
+        />
         <div 
-        className='divider' />
+        className='smart_details'>
+            {info} </div>
+            
+            <div 
+            className='smart_head'>
 
-        
+            <h2>{title}</h2>
+        <div 
+        className='smart_avat'>
+            <img 
+            className='avat_img'
+            src={avatar}></img>
+            <h3>{author}</h3>
+            <p>{time}</p>
+            <h2>{more}</h2>
+            
+        </div>
+                </div>
     </div>
-  )
+      )
 }
 
 export default Smart

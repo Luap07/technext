@@ -1,43 +1,14 @@
-.fresh_top{
-    margin-top: 3em;
-    font-size: 1.12em;
-    font-weight: 600;
-    padding: 1.5em;
-    color: #fff;
-    border-top: 3px solid gray;
-}
-
-
-
-.fresh_img{
-    width: 100%;
-    max-width: 500px;
-    border: 1px solid none;
-    border-radius: 1em;
-    margin-top: 3em;
-}
-
-.fresh_img:hover{
-    opacity: .5;
-    scale: 1.1;
-    transition: all 3s;
-}
-h4{
-    border: 1px solid #fff;
-    text-align: center;
-    width: 4em;
-    border-radius: .5em;
-    font-size: medium;
-    margin-top: 1.2em;
-    padding: .3em;
-    cursor: pointer;
-    font-weight: 100;
+.fresh{
+    display: flex;
+    flex-direction: column;
     
-
 }
 
+.fresh_top{
+    padding: 1em;
+    font-size: 1.8em;
+}
 
-
-h2{
-    font-size: 1.5em;
+.divder{
+    width: 1em;
 }
