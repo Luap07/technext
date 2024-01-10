@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -6,13 +7,33 @@
 }
 body{
     background-color: #1c1c1c;
+    width: 100%;
+}
+.container_wrapper{
+    width: 100%;
+    max-width: 110em;
+    margin: 0 auto;
 }
 
 /* 
 h1, h2, h3, p, :hover{
     color: #ce2429;
 } */
+.article_showcase{
+    display: flex;
+    flex-direction: column;
 
+    padding: 2em;
+}
+
+@media (min-width:978px) {
+    .article_showcase{
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-between;
+    }
+    
+}
 .container{
     display: flex;
     flex-direction: column;

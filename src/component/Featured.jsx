@@ -2,6 +2,7 @@ import React from 'react'
 import './Featured.css';
 import assets from '../assets';
 import Avatar from './Avatar';
+import '../App.css'
 
 
 const Featured = () => {

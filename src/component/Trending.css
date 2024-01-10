@@ -1,6 +1,7 @@
 .trends{
     display: flex;
     flex-direction: column;
+    width: 100%;
 
 }
 
@@ -22,10 +23,8 @@ h2{
 
 .trends_content{
     margin-top: 3em;
-    width: 500px;
     display: flex;
     flex-direction: column;
     gap: 1em;
-    max-width: 500px;
 }
 

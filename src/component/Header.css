@@ -4,11 +4,18 @@
 }
 
 header{
-    display: flex;
+    width: 100%;
     padding: 1em;
     border-bottom: 1px solid gray;
-    align-items: center;
+
+}
+.header_wrapper{
+    max-width: 110em;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 

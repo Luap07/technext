@@ -6,9 +6,27 @@
 
 .fresh_top{
     padding: 1em;
-    font-size: 1.8em;
+    font-size: 1.7em;
 }
 
 .divder{
     width: 1em;
+}
+
+.smart{
+    padding: 1em;
+}
+
+
+@media (min-width:798px) {
+    .fresh_content{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+@media (min-width:998px) {
+    .fresh_content{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
 }

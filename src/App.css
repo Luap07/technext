@@ -1,0 +1,10 @@
+h1, h2{
+    font-size: 1.3em;
+}
+
+
+@media (min-width:978px) {
+    h1,h2{
+        font-size: 1.7em !important;
+    }
+}

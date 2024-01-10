@@ -6,6 +6,8 @@ import './Header.css';
 const Header = () => {
   return (
     <header>
+      <div className='header_wrapper'>
+
        <Menu  className='text-white'/>
        <Logo />
        <div className='header_icons'>
@@ -16,6 +18,8 @@ const Header = () => {
         size={20} 
         className='text-white'/>
        </div>
+       </div>
+
     </header>
   )
 }

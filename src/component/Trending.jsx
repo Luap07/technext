@@ -8,7 +8,7 @@ const article = [
   {id:1,divider:true, title:"Meet Switch Electric whose peer-to-peer metering hardware has gathered 15,000 pre-orders", author:'Ejike Kanife', image:assets.featured },
   {id:2, divider:true, title:"Bolt Nigeria opens on 'dispute'with e-hailing union  ", author:'Ejike Kanife', image:assets.image },
   {id:3, divider:true, title:"A chat with Segun Adeyemo about SAVA and pioneering growth as a service for African startups", author:' Godfrey Elimian', image:assets.screenshot },
-  {id:1, title:"Exclusive: Bitmama acquires Payday, backend transition already ongoing", author:' David Afolayan', image:assets.banner },
+  {id:4, title:"Exclusive: Bitmama acquires Payday, backend transition already ongoing", author:' David Afolayan', image:assets.banner },
   
 ]
 

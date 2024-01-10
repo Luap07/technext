@@ -2,7 +2,7 @@ import React from 'react';
 import './Sponsored.css';
 import assets from '../assets';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import Slider from './Slider';
+/**import Slider from './Slider';**/
 
 const Sponsored = () => {
   return (
@@ -24,8 +24,6 @@ const Sponsored = () => {
         src={assets.Icon}> 
         </img>
         <h3>Tech Next</h3>
-
-        <Slider />
 
        
         </div>

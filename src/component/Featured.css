@@ -13,8 +13,9 @@
     color: #fff;
     margin-top: 1em;
     font-weight: 600;
-    font-size: 1.7em;
+    
 }
+
 h1:hover{
     transition: all;
     cursor: pointer;

@@ -7,4 +7,4 @@ export const articleData = [
     {id:4, title:"Driving Luxury: Starr Luxury Cars and the uncharted oppportunities for Africa's rental market", image:assets.featured, author:"Sponsored"},
     {id:1, title:"Excitement as tech enthsiasts and creatives gear up for Art of Technology 5.0 in Lagos", image:assets.leo, author:"Tech Next"},
 
-]   
+]  

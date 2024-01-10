@@ -1,4 +1,4 @@
-import { ChevronLeft, ChevronRight } from "lucide-react";
+/**import { ChevronLeft, ChevronRight } from "lucide-react";
 import { articleData } from "../../Data";
 
 
@@ -17,4 +17,4 @@ const Slider = () => {
   )
 }
 
-export default Slider
+export default Slider**/

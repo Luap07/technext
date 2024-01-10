@@ -2,15 +2,21 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 500px;
-    padding: 2px;
-    margin-left: 1.3em;
+    padding: 1.5em;
 }
-
+@media  (min-width:998px) {
+    .smart{
+        max-width: 500px;
+    }
+    
+}
 .smart_img{
     border: 1px solid none;
     border-radius: 1em;
     margin-top: 1em;
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
     
 }
 
@@ -25,9 +31,18 @@
 }
 
 
+
+.smart_arr{
+margin-top: 1em;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
 .smart_head h2{
-    font-size: 2em;
     font-weight: 400;
+    
 }
 
 
@@ -35,10 +50,43 @@
 .smart_avat{
     margin-top: 1em;
     display: flex;
+   gap: 2px;
+      
     
 }
 
-.smart_avat h3{
-    margin-left: .1em;
+.smart_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    margin-top: 4px;
 }
+
+.smart_info p{
+    margin-top: 3px;
+}
+
+.readmore_btn{
+    background-color: transparent;
+    border: 1px solid #fff;
+    width: 15em;
+    height: 3.5em;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.readmore_btn:hover{
+    background-color: tomato;
+    transition: all .5s;
+}
+.readmore_btn  h4{
+    color:#fff;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
 

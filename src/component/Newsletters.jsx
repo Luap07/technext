@@ -2,7 +2,7 @@ import React from 'react'
 
 const Newsletters = () => {
   return (
-    <div>Newsletters</div>
+    <div className="flex p-6 hover:bg-red-600">Newsletters</div>
   )
 }
 
